@@ -5,9 +5,17 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-    <div>
-      Hero
-    </div>
+    <Section row no padding>
+      <LeftSection>
+        <SectionTitle>
+          Welcome to Xavi's Projects <br />
+        </SectionTitle>
+        <SectionText>
+          This portfolio is to display and archive Xavier (Xavi) Mendez's projects. Please note this itself is a project based off a JavaScript Mastery tutorial and because of this is continueously under construction.
+        </SectionText>
+        <Button onClick={() => window.location = 'https://google.com'}> Recent Projects</Button>
+      </LeftSection>
+    </Section>     
   
   
 );
