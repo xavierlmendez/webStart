@@ -8,18 +8,18 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link Href = '/'>
+      <Link href = "/">
           <a style size ="3rem" /> <span>Xavi's Portfolio</span>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href ="#projects">
+        <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href ="#tech">
+        <Link href="#tech">
           <NavLink>Techonology</NavLink>
         </Link>
       </li>
@@ -30,10 +30,10 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href = "https://github/com">
+      <SocialIcons href="https://github/com">
         <AiFillGithub size = "3rem"/>
       </SocialIcons>
-      <SocialIcons href = "https://Linkiedin/com">
+      <SocialIcons href="https://Linkiedin/com">
         <AiFillLinkedin size = "3rem"/>
       </SocialIcons>
     </Div3>
