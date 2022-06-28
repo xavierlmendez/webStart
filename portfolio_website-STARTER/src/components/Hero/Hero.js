@@ -11,7 +11,7 @@ const Hero = (props) => (
           Welcome to Xavi's Projects <br />
         </SectionTitle>
         <SectionText>
-          This portfolio is to display and archive Xavier (Xavi) Mendez's projects. Please note this itself is a project based off a JavaScript Mastery tutorial and because of this is continueously under construction.
+          This portfolio is to display and archive Xavier (Xavi) Mendez's projects. Please note this itself is a project based off a JavaScript Mastery tutorial and because of this is continuously under construction.
         </SectionText>
         <Button onClick={() => window.location = 'https://google.com'}> Recent Projects</Button>
       </LeftSection>
