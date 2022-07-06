@@ -1,9 +1,9 @@
 {
   "name": "portfolio_nextjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -- -p 8080",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "next build && next export",
     "start": "next start"
   },
@@ -16,3 +16,4 @@
     "react-icons": "^4.2.0"
   }
 }
+//"next dev -- -p 8080"
